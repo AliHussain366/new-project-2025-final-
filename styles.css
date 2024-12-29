@@ -1,0 +1,294 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    text-align: center;
+}
+
+.gift-container {
+    position: relative;
+}
+
+.gift-box {
+    cursor: pointer;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.gift-box:hover {
+    transform: scale(1.1);
+}
+
+.gift-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Surprise Message */
+.surprise-message {
+    font-size: 26px;
+    font-weight: bold;
+    color: #ff5722;
+    display: none;
+    margin-top: 30px;
+}
+
+/* Share Button */
+.share-button {
+    padding: 15px 30px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.share-button:hover {
+    background-color: #ff7043;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .gift-box {
+        width: 150px;
+        height: 150px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    .surprise-message {
+        font-size: 20px;
+    }
+}
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    text-align: center;
+    color: #333;
+}
+
+/* Centered Container for Gift */
+.gift-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Gift Box Styles */
+.gift-box {
+    cursor: pointer;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.gift-box:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.gift-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Heading and Initial Message */
+h2 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #333;
+    margin: 20px 0;
+}
+
+/* Surprise Message Styles */
+.surprise-message {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ff5722;
+    display: none;
+    margin-top: 30px;
+    animation: revealMessage 1s ease-out forwards;
+}
+
+/* Share Button Styles */
+.share-button {
+    padding: 15px 30px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    display: none;
+}
+
+.share-button:hover {
+    background-color: #ff7043;
+}
+
+/* Animation for Surprise Reveal */
+@keyframes revealMessage {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .gift-box {
+        width: 180px;
+        height: 180px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    .surprise-message {
+        font-size: 24px;
+    }
+}
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    text-align: center;
+    color: #333;
+    flex-direction: column;
+}
+
+/* Gift Container Centered */
+.gift-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Gift Box Styles */
+.gift-box {
+    cursor: pointer;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.gift-box:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.gift-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Heading and Initial Message */
+h2 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #333;
+    margin: 20px 0;
+}
+
+/* Surprise Message Styles */
+.surprise-message {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ff5722;
+    display: none;
+    margin-top: 30px;
+    animation: revealMessage 1s ease-out forwards;
+}
+
+/* Share Button Styles */
+.share-button {
+    padding: 15px 30px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    display: none;
+}
+
+.share-button:hover {
+    background-color: #ff7043;
+}
+
+/* Animation for Surprise Reveal */
+@keyframes revealMessage {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .gift-box {
+        width: 180px;
+        height: 180px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    .surprise-message {
+        font-size: 24px;
+    }
+}
